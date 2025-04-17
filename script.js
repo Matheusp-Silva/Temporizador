@@ -2,7 +2,7 @@ function atualizarContagem() {
     const agora = new Date();
   
     const fim = new Date();
-    fim.setHours(18, 0, 0, 0); // Hoje às 18h horário local
+    fim.setHours(15, 30, 0, 0); // Hoje às 18h horário local
   
     const diff = fim.getTime() - agora.getTime();
   
